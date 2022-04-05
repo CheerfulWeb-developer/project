@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    align-items: center;
+}
+.text {
+    color: rgb(255, 255, 255);
+    width: 22ch;
+    font-family: monospace;
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid rgb(232,95,76);
+    animation: flashing-border 0.5s step-end infinite,
+    printed-text 5s steps(22);
+}
+@keyframes flashing-border{
+    0%{
+      border-color: rgb(232,95,76) ;
+    }
+    50%{
+      border-color: transparent;
+    }
+    100%{
+      border-color: rgb(232,95,76) ;
+    }
+  }
+  
+  @keyframes printed-text{
+    from{
+      width: 0;
+    }
+  }

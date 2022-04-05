@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: serif;
+    
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+h1 {
+    font-weight: normal;
+    max-width: 700px;
+    margin: 70px auto 30px;
+    line-height: 40px;
+}
+p {
+   max-width: 900px;
+   margin: 0 auto 40px;
+   line-height: 25px;
+}
+.info {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.icon {
+    max-width: 250px;
+    margin: 0 auto 60px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.fa {
+    color: rgb(66, 176, 184);
+    font-size: 50px;
+}

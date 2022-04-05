@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Gotham;
+    src: url(/fonts/pr4/Gotham-Bold.otf);
+}
+@font-face {
+    font-family: Proxima;
+    src: url(/fonts/pr4/proximanova-regular.otf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+.team {
+    background-color: rgb(243, 243, 243);
+}
+.info {
+}
+.title {
+    text-align: center;
+
+}
+.tt{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: 15px;
+    margin-bottom: 9.5px;
+    color: #303030;
+    font-family: Gotham;
+}
+.teamline{
+    width: 184px;
+    height: 3px;
+    background-color: #303030;
+    margin: 0 auto;
+ 
+}
+.text {
+    font-family: Proxima ;
+    max-width: 516px;
+    line-height: 25px;
+    margin: 30px auto;
+    
+}
+.members {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+    padding-bottom: 80px;
+   
+    
+}
+.first {
+    width: 210px;
+    height: 210px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 2px 4px 0px rgb(203, 203, 203);
+}
+.photo{
+    padding-top: 10px;
+}
+.initial {
+    font-family: Gotham;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-weight: bold;
+   
+}
+.occupation {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.fa {
+    font-size: 20px;
+    color: rgb(105,105,105);
+    margin: 0 10px;
+}

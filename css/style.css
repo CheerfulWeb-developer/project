@@ -1,0 +1,197 @@
+.body {
+  display: block;
+  margin: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.up {
+  background-image: url(../img/4k-wallpaper-clean-desk-1420701-1170x620.jpg);
+  background-size: cover;
+}
+
+.box {
+  margin-left: 15px;  
+}
+
+.textmenu {
+   width: 25%;
+   font-size: 17px;
+   font-weight: 600;
+}
+
+.boxmenu {
+  border: 3px rgb(28, 35, 39) groove;
+  border-radius: 13px;
+  margin: 10px;
+  background-color:rgb(240,240,240) ;
+
+}
+
+.probel {
+ text-align: right ;
+ 
+}
+
+.bottom{
+
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: rgb(212,75,56); /* фон кнопки */
+    padding: .7em 1.5em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+
+button.bottom:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+button.bottom:active { background: rgb(152,15,0); } /* при нажатии */
+
+
+#info {
+  padding-left: 20px ;
+}
+
+.polaroid {
+  position: relative;
+  width: 220px;
+ }
+  
+ .polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+  -moz-box-shadow: 3px 3px 3px #777;
+  box-shadow: 3px 3px 3px #777;
+ }
+  
+ .polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
+ }
+
+ .d9 h3 {
+  
+  padding: 0 0 6px 10px;
+  border-left: 10px solid #2d3a36;
+  border-bottom: 2px solid #2d3a36;
+  margin-right: 15px ;
+}
+
+.wrapper{
+  display: flex;
+
+}
+
+.title{
+  width: 58ch;
+  color: black;
+  font-family: monospace;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid rgb(232,95,76);
+  animation: flashing-border 0.5s step-end infinite,
+  printed-text 5s steps(58);
+}
+
+@keyframes flashing-border{
+  0%{
+    border-color: rgb(232,95,76) ;
+  }
+  50%{
+    border-color: transparent;
+  }
+  100%{
+    border-color: rgb(232,95,76) ;
+  }
+}
+
+@keyframes printed-text{
+  from{
+    width: 0;
+  }
+}
+
+#title {
+   padding-top: 20px;
+   padding-left: 35px;
+   padding-bottom: 10px ;
+}
+
+.text {
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+  list-style: circle;
+}
+
+.table_price {
+  border-collapse: collapse;
+  border-left: 3px solid rgb(232,95,76);
+  border-right: 3px solid rgb(232,95,76);
+  border-bottom: 3px solid rgb(232,95,76);
+  font-family: "Lucida Grande", sans-serif;
+ }
+.table_price caption {
+  background: rgb(232,95,76); 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px  4px 0 rgba(0,0,0,.3);
+  color: white;
+  font-family: "Roboto Slab",serif;
+  font-style: normal;
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+}
+.table_price td, .table_price th {
+  padding: 10px;
+}
+.table_price th {
+  text-align: left;
+  font-size: 18px;
+}
+.table_price tr:nth-child(2n) {
+  background: #E5E5E5;
+}
+.table_price td:last-of-type {
+  text-align: center;
+}
+.table_price a {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #F79361;
+  box-shadow: 2px 2px 0 0 #a22800;
+  position: relative;
+}
+.table_price a:hover {
+  box-shadow: none;
+  top: 2px;
+  left: 2px;
+}
+
+#cont {
+  padding-right: 20px ;
+}
+
+
+.cont {
+    background-image: url(../img/5907980386511.jpg);
+    background-size: 100%
+}
+.boxcont {
+  margin: 15px;
+}
+
