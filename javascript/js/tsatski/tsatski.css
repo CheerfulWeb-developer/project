@@ -1,0 +1,103 @@
+@font-face{
+    font-family: Deutsch Gothic;
+    src: url(/projects/tsatski/fonts/Deutsch\ Gothic.ttf);
+}
+@font-face{
+    font-family: Muller;
+    src: url(/projects/tsatski/fonts/MullerHairline.ttf);
+}
+*{
+   box-sizing: border-box;
+}
+.body{
+    margin: 0;
+}
+/* .tsatski {
+    width: 1920px;
+    background-color: rgb(0, 0, 0);
+} */
+.main {
+    background-color: #212121;
+}
+.navigator {
+}
+.title {
+    font-family: Deutsch Gothic;
+    text-align: center;
+    font-size: 110px;
+    padding-top: 50px;
+    background: linear-gradient(90deg, #2e2e2e 10%, #FFFFFF 60%, #2e2e2e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.assortment {
+    padding-top: 50px;
+    display: flex;
+}
+.first_coloum {
+    padding-left: 150px; 
+}
+.text {
+    max-width: 350px;
+    color: #d7d8da;
+    text-transform: uppercase;
+    font-family: Muller ;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 35px;
+}
+.bottom_catalog {
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #999;
+    background-color: #212121;
+    
+}   
+.bottom_text {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.left_img{
+    padding-left: 250px;
+    padding-top: 70px;
+}
+.akuma {
+    
+}
+.michael{
+    padding-top: 120px;
+
+}
+.jewname {
+    padding-top: 10px;
+    color: #b5b5b5;
+    font-family: Muller;
+    font-weight: 600;
+}
+.jewcost {
+    padding-top: 10px;
+    color: #b5b5b5;
+    font-family: Muller;
+    font-weight: 600;
+}
+.right_img{
+    padding-left: 60px;
+}
+.reaper {
+   
+}
+.collar{
+    padding-top: 150px;
+}
+.halo{
+    padding-top: 200px;
+}
+/* .container1{
+    width: 1170px;
+    height: 600px;
+    background-image: url(img/Rectangle\ 11.jpg);
+} */
