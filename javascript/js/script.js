@@ -1,22 +1,22 @@
 "use sctrict";
 
-console.log(4 + '5');
+const numberOfFims = +prompt("Сколько фильмов вы уже посмотрели", "0");
 
-let incr = 10,
-    decr = 10;
-
-// incr++;
-// decr--;
-
-console.log(++incr);
-console.log(--decr);
-
-console.log(5%2);
-
-console.log(2*4=='8');
-
-const isChecked = true,
-      isClose = false;
-
-console.log(isChecked || isClose);
     
+const personalMovieDB = {
+    count: numberOfFims,
+    movies: {},
+    actors: {},
+    generes: [],
+    privat: false 
+};
+
+const a = prompt("Один из последних просмотренных фильмов?",""),
+      b = prompt("На сколько оцеените его?",""),
+      c = prompt("Один из последних просмотренных фильмов?",""),
+      d = prompt("Один из последних просмотренных фильмов?","");
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+
+console.log(personalMovieDB);
